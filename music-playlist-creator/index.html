@@ -11,16 +11,112 @@
 </head>
 <body>
     <header>
-        <!-- Your header content here -->
+        <div class = "titleBorder"> 
+             <h1 id="websiteTitle"> Music Player Explorer </h1>
+        </div>
     </header>
 
     <main> 
-        <!-- Your main content here -->
+        <button id="myBtn">Open Modal</button>
+        <section class = "playlist-cards"> 
+            <div class ="playlist">
+                <img class ="playlistImg" src="./assets/img/playlist.png" alt="cover"> 
+                <div class = "playlistInfo">
+                    <h2 class ="playlistName"> Playlist Name</h2>
+                    <h3 class = "playlistAuthor"> Author Name</h3>
+                </div>
+            </div>
+            <div class ="playlist">
+                <img class ="playlistImg" src="./assets/img/playlist.png" alt="cover"> 
+                <div class = "playlistInfo">
+                    <h2 class ="playlistName"> Playlist Name</h2>
+                    <h3 class = "playlistAuthor"> Author Name</h3>
+                </div>
+            </div>
+             <div class ="playlist">
+                <img class ="playlistImg" src="./assets/img/playlist.png" alt="cover"> 
+                <div class = "playlistInfo">
+                    <h2 class ="playlistName"> Playlist Name</h2>
+                    <h3 class = "playlistAuthor"> Author Name</h3>
+                </div>
+            </div>
+            <div class ="playlist">
+                <img class ="playlistImg" src="./assets/img/playlist.png" alt="cover"> 
+                <div class = "playlistInfo">
+                    <h2 class ="playlistName"> Playlist Name</h2>
+                    <h3 class = "playlistAuthor"> Author Name</h3>
+                </div>
+            </div>
+            <div class ="playlist">
+                 <img class ="playlistImg" src="./assets/img/playlist.png" alt="cover"> 
+                <div class = "playlistInfo">
+                    <h2 class ="playlistName"> Playlist Name</h2>
+                    <h3 class = "playlistAuthor"> Author Name</h3>
+                </div>
+            </div>
+            <div class ="playlist">
+                 <img class ="playlistImg" src="./assets/img/playlist.png" alt="cover"> 
+                <div class = "playlistInfo">
+                    <h2 class ="playlistName"> Playlist Name</h2>
+                    <h3 class = "playlistAuthor"> Author Name</h3>
+                </div>
+            </div>
+            <div class ="playlist">
+                 <img class ="playlistImg" src="./assets/img/playlist.png" alt="cover"> 
+                <div class = "playlistInfo">
+                    <h2 class ="playlistName"> Playlist Name</h2>
+                    <h3 class = "playlistAuthor"> Author Name</h3>
+                </div>
+            </div>
+            <div class ="playlist">
+                 <img class ="playlistImg" src="./assets/img/playlist.png" alt="cover"> 
+                <div class = "playlistInfo">
+                    <h2 class ="playlistName"> Playlist Name</h2>
+                    <h3 class = "playlistAuthor"> Author Name</h3>
+                </div>
+            </div>
+        </section>
     </main>
 
+<!-- MODAL LOCATION-->
+
+<div id="myModal" class="modal">
+  <div class="modalContent">
+    <span class="close">&times;</span>
+    <div class = "modalHeader">
+        <div class = "modalPlaylistGraphics">
+            <img id = "modalImg" class ="playlistImg" src="./assets/img/playlist.png" alt="cover"> 
+            <button id = "shuffleBtn"> Shuffle</button>
+        </div>
+        <div class = "modalPlaylistTXT">
+            <h2 class ="playlistName"> Playlist Name</h2>
+            <h3 class = "playlistAuthor"> Created by: Name</h3>
+
+        </div>
+        
+    </div>
+    <div class ="modalList">
+        <div class = "songs">
+            <img class ="songImg" src="./assets/img/song.png" alt="Song cover"> 
+            <div class ="songDetails">
+                <h3 class ="songTXT"> Album Name</h3>
+                <h3 class = "songTXT"> Artist Name</h3>
+                <h3 class ="songTXT"> Album</h3>
+            </div>
+            <h3 class = "songTime"> 0:00</h3>
+        </div>
+        <div class = "songs"></div>
+        <div class = "songs"></div>
+        <div class = "songs"></div>
+    </div>
+  </div>
+</div>
+
     <footer>
-        <!-- Your footer content here -->
+        
     </footer>
+
+
     <script src="data/data.js"></script>
     <script src="script.js"></script>
 </body>
