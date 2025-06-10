@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- 
 <html lang="en">
 <head>
     
@@ -18,8 +18,9 @@
     </header>
 
     <main> 
+        <button id="myBtn">Open Modal</button>
         <section class = "playlist-cards"> 
-            <!-- <div class ="playlist">
+            <div class ="playlist">
                 <img class ="playlistImg" src="./assets/img/playlist.png" alt="cover"> 
                 <div class = "playlistInfo">
                     <h2 class ="playlistName"> Playlist Name</h2>
@@ -29,11 +30,11 @@
                         <span class = "likeCount"> 100</span>
                     </div>
                 </div>
-            </div> -->
+            </div>
         </section>
     </main>
 
-<!-- MODAL LOCATION-->
+MODAL LOCATION
 
 <div id="myModal" class="modal">
   <div class="modalContent">
@@ -44,13 +45,14 @@
             <button id = "shuffleBtn"> Shuffle</button>
         </div>
         <div class = "modalPlaylistTXT">
-            <h2 id="modalName" class ="playlistName"> Playlist Name</h2>
-            <h3 id="modalAuthor" class = "playlistAuthor"> Created by: Name</h3>
+            <h2 class ="playlistName"> Playlist Name</h2>
+            <h3 class = "playlistAuthor"> Created by: Name</h3>
+
         </div>
         
     </div>
     <div class ="modalList">
-        <!-- <div class = "songs">
+        <div class = "songs">
             <img class ="songImg" src="./assets/img/song.png" alt="Song cover"> 
             <div class ="songDetails">
                 <h3 class ="songTXT"> Album Name</h3>
@@ -61,7 +63,7 @@
         </div>
         <div class = "songs"></div>
         <div class = "songs"></div>
-        <div class = "songs"></div> -->
+        <div class = "songs"></div>
     </div>
   </div>
 </div>
@@ -71,7 +73,7 @@
     </footer>
 
 
-    <!-- <script src="data/data.js"></script> -->
+    <script src="data/data.js"></script>
     <script src="script.js"></script>
 </body>
-</html>
+</html> --> -->

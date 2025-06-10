@@ -76,13 +76,18 @@ h3{
     display: block;
     text-align: left;
 
-    border: solid #6a5acd;
+    border: solid #252842;
     width: 59%;
 
     margin-top: 3dvh;
     margin-bottom: 3dvh;
     max-width: 100%;
 } 
+
+.playlistName {
+    color: rgb(36, 21, 137);
+    font-weight: bold;
+}
 
 
 footer {
@@ -105,7 +110,7 @@ footer {
     top: 0;
     width: 100%; 
     height: 100%; 
-    overflow: auto; /* Enable scroll if needed */
+    /*overflow: auto; /* Enable scroll if needed */
     background-color: rgba(0, 0, 0, 0.6); /* Black w/ opacity */
 
 }
@@ -116,14 +121,17 @@ footer {
     flex-wrap: nowrap;
     
     background-color: #fefefe;
-    margin: 10% auto; /* 15% from the top and centered */
-    padding: 15px;
+    margin: 10% auto; 
+    margin-top: 5%;
+    padding: 10px;
     border: 1px solid #888;
     border-radius: 3%;
-    box-shadow: 10px 10px 20px rgba(198, 199, 225, 0.6);
+    box-shadow: 10px 10px 20px rgba(198, 199, 225, 0.7);
 
-    width: 30%;
-    height: 65%;
+    width: 35%;
+    height: 68%;
+
+
 }
 
 .modalHeader {
@@ -132,21 +140,21 @@ footer {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    height: 42%;
+    height: 39%;
     margin-bottom: 2%;
 }
 
 .modalPlaylistGraphics{
-    align-items: center;
+    align-items:center;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    width: 60%;
+    width: 50%;
     margin-right: 2%;
 }
 #modalImg {
     margin-top: 4%;
-    width: 60%;
+    width: 67%;
     height: auto;
     box-sizing: border-box;
 }
@@ -159,7 +167,7 @@ footer {
 }
 
 #shuffleBtn {
-    margin-top: 5%;
+    margin-top: 3%;
     background-color: lightblue;
     width: 40%;
 }
@@ -169,6 +177,8 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-auto-rows: 60px;
     border: dotted#6a5acd;
+    flex-wrap: nowrap;
+    overflow:scroll;
 }
 
 .songs {
@@ -190,7 +200,7 @@ footer {
 
     box-sizing:border-box;
     
-    margin-right: 5%;
+    margin-right: 2%;
     width: 20%;
     height: auto;
 }
@@ -221,3 +231,32 @@ footer {
    text-decoration: none;
    cursor: pointer;
 }
+
+/* Only animate the popup box inside the modal */
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes modalFadeOut {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+}
+
+
+.modalContent.fade-out {
+  animation: modalFadeOut 0.2s ease forwards; 
+}
+
