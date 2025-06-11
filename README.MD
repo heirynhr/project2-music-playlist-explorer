@@ -131,15 +131,21 @@ Deployed Application (**required**): [Music Playlist Explorer Deployed Site](mus
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video actually renders and is playable when viewing this README. Ensure your walkthrough showcases the presence and/or functionality of all features you implemented above (check them off as you film!). Pay attention to any **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS** checkboxes listed above to ensure graders see the full functionality of your website! (🚫 Remove this paragraph after adding walkthrough video)
-
-`ADD_EMBEDDED_CODE_HERE`
+<div>
+    <a href="https://www.loom.com/share/01c339d07879479ab0383c7a8f3ecd18">
+      <p>Unit 2 Project - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/01c339d07879479ab0383c7a8f3ecd18">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/01c339d07879479ab0383c7a8f3ecd18-b064e8644462095f-full-play.gif">
+    </a>
+  </div>
 
 ### Reflection
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Yes, definitely the lab were super helpful in guiding the completion of the project milestones
+Yes, definitely the lab were super helpful in guiding the completion of the project milestones. I looked at them to kinda help organize my thinking process.
+
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
 Had I had more time I would have worked on the stretch features like Adding and deleting playlist. Additionally I would have even had a song play when you click on it on the home page modal.
@@ -147,7 +153,7 @@ Had I had more time I would have worked on the stretch features like Adding and 
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-I believe my presentation went well, as everything went as planned. I loved hearing everyone's input as to how my designs could be improved. I think that some people implemented a hover with all the likes and also love the search features that my peers implemented
+I believe my presentation went well, as everything went as planned. I loved hearing everyone's input as to how my designs could be improved. I think that some people implemented a hover with all the likes that I would love to try out and also love the search features that my peers implemented
 
 ### Open-source libraries used
 
