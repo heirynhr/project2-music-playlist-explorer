@@ -121,7 +121,7 @@ background: linear-gradient(90deg, rgba(11, 44, 77, 1) 0%, rgba(31, 44, 79, 1) 4
     grid-auto-rows: 270px;
     grid-gap:5dvh 2dvh;
     justify-content: center;  
-    padding: 1.5dvh 5vw;       
+    padding: 3dvh 5vw;       
     box-sizing: border-box;
     overflow: scroll;
 }
@@ -135,7 +135,7 @@ background: linear-gradient(90deg, rgba(11, 44, 77, 1) 0%, rgba(31, 44, 79, 1) 4
     align-content: center;
     align-items: left;
 
-    background-color: #666b6d4c;
+    background-color: #8891944c;
     border: solid rgb(57, 62, 68);
     border-radius: 8px;
 
@@ -177,15 +177,17 @@ background: linear-gradient(90deg, rgba(11, 44, 77, 1) 0%, rgba(31, 44, 79, 1) 4
 }
 
 .playlistName {
-    color:#95c0f4;
+    color:#c2e0fd;
     font-weight: bold;
     font-family: 'Manrope', sans-serif;
+    font-size: large;
 
 }
 
 .playlistAuthor {
     color:#6d9ad1;
     font-family: 'Manrope', sans-serif;
+    font-size: medium;
 }
 .likeCount{
     color:#6890c1;
@@ -198,7 +200,7 @@ background: linear-gradient(90deg, rgba(11, 44, 77, 1) 0%, rgba(31, 44, 79, 1) 4
 }
 
 .liked {
-    color:rgb(2, 113, 193);
+    color:rgb(2, 193, 126);
 }
 .heart-icon:hover {
   color: rgb(1, 147, 251);
@@ -355,7 +357,7 @@ background: linear-gradient(90deg, rgba(11, 44, 77, 1) 0%, rgba(31, 44, 79, 1) 4
     font-weight: 9000;
 }
 #songArtist{
-    color:#1c395e;
+    color:#4485d9;
 }
 
 .close {
@@ -423,7 +425,6 @@ background: linear-gradient(90deg, rgba(11, 44, 77, 1) 0%, rgba(31, 44, 79, 1) 4
     flex-direction: column;
     flex-wrap: wrap;
     width: 40%;
-  
     align-items: center;
 }
 
@@ -442,18 +443,24 @@ background: linear-gradient(90deg, rgba(11, 44, 77, 1) 0%, rgba(31, 44, 79, 1) 4
 }
 
 .songTXT{
-    color:#002244;
+    color:#c2e0fd;
+    font-size: medium;
 }
 .songTime {
-    color:rgb(0, 34, 68);
+    color:#c2e0fd
 }
 
-
+#featuredName {
+    font-size: x-large;
+}
+#featuredAuthor {
+    font-size: large;
+}
 
 #FeaturedshuffleBtn{
     margin-top: 1%;
     background-color: lightblue;
-    width: 70%;
+    width: 60%;
 }
 
 #FeaturedshuffleBtn:active {

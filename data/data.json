@@ -61,7 +61,7 @@
       "playlist_name": "Heartbreak Hits",
       "playlist_author": "Luna",
       "playlist_art": "./assets/img/sad.jpg",
-      "likes": 174,
+      "likes": 0,
       "songs": [
         { "songID": 501, "title": "Traitor", "artist": "Olivia Rodrigo", "duration": "3:49", "link": "https://open.spotify.com/embed/track/5CZ40GBx1sQ9agT82CLQCT?utm_source=generator" },
         { "songID": 502, "title": "All Too Well (10 Minute Version)", "artist": "Taylor Swift", "duration": "10:13", "link": "https://open.spotify.com/embed/track/5enxwA8aAbwZbf5qCHORXi?utm_source=generator&theme=0" },
@@ -91,7 +91,7 @@
       "playlist_art": "./assets/img/cameraField.jpg",
       "likes": 111,
       "songs": [
-        { "songID": 701, "title": "Northern Attitude", "artist": "Noah Kaha ft. Hozier", "duration": "4:27", "link": "https://open.spotify.com/embed/track/4oEf84vBYVftf6KmZexhVo?utm_source=generator" },
+        { "songID": 701, "title": "Northern Attitude", "artist": "Noah Kahan ft. Hozier", "duration": "4:27", "link": "https://open.spotify.com/embed/track/4oEf84vBYVftf6KmZexhVo?utm_source=generator" },
         { "songID": 702, "title": "Cardigan", "artist": "Taylor Swift", "duration": "4:00", "link": "https://open.spotify.com/embed/track/4R2kfaDFhslZEMJqAFNpdd?utm_source=generator" },
         { "songID": 703, "title": "Ophelia", "artist": "The Lumineers", "duration": "2:40", "link": "https://open.spotify.com/embed/track/14AyWf6y7KlWWLfAjdKMKI?utm_source=generator" },
         { "songID": 704, "title": "Holocene", "artist": "Bon Iver", "duration": "5:36", "link": "https://open.spotify.com/embed/track/35KiiILklye1JRRctaLUb4?utm_source=generator" },
@@ -105,7 +105,7 @@
       "playlist_art": "./assets/img/headphones.jpg",
       "likes": 245,
       "songs": [
-        { "songID": 801, "title": "Ribs", "artist": "Lorde", "duration": "4:18", "link": "https://open.spotify.com/embed/track/4kX6zEfpHgNe0Lz3k1EB0Q?utm_source=generator" },
+        { "songID": 801, "title": "Ribs", "artist": "Lorde", "duration": "4:18", "link": "https://open.spotify.com/embed/track/2MvvoeRt8NcOXWESkxWn3g?utm_source=generator" },
         { "songID": 802, "title": "Liability", "artist": "Lorde", "duration": "2:51", "link": "https://open.spotify.com/embed/track/6Kkt27YmFyIFrcX3QXFi2o?utm_source=generator" },
         { "songID": 803, "title": "Solar Power", "artist": "Lorde", "duration": "3:12", "link": "https://open.spotify.com/embed/track/7s2kWabRM60W9I61HpKg8C?utm_source=generator" },
         { "songID": 804, "title": "Hard Feelings/Loveless", "artist": "Lorde", "duration": "6:07", "link": "https://open.spotify.com/embed/track/1Dp7JGFNjvg8Nk0CtMCcnr?utm_source=generator" },
