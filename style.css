@@ -3,7 +3,9 @@
     box-sizing: border-box;
 }
 
-
+main {
+    padding-bottom: 13vh; /* leave space for the fixed footer */
+}
 
 body {
     font-family: 'Arial', sans-serif;
@@ -27,7 +29,7 @@ h3{
 .titleBorder {
     display: flex;
     border-bottom: solid rgb(109, 106, 106);
-    padding-top: 4dvh;
+    padding-top: 1.5dvh;
     align-items: center;
     justify-content: space-between;
     background: #0b2c4d;
@@ -48,7 +50,7 @@ nav {
     font-weight:bold;
     align-items: center;
     justify-content: space-evenly;
-    overflow: hidden;
+    overflow: wrap;
     margin-right: 4%;
    
 }
@@ -88,13 +90,27 @@ nav li {
 footer {
     position: fixed;
     bottom: 0;
-    padding: 1.5dvh;
+    height:6%;
     width: 100%;
     border-top: solid rgb(109, 106, 106);
-    padding-bottom: 1dvw;
     align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
     background: #0b2c4d;
 background: linear-gradient(90deg, rgba(11, 44, 77, 1) 0%, rgba(31, 44, 79, 1) 48%, rgba(40, 49, 77, 1) 97%);
+}
+#ftFooter {
+    height:18%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+#currentlyPlaying{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 
@@ -102,12 +118,12 @@ background: linear-gradient(90deg, rgba(11, 44, 77, 1) 0%, rgba(31, 44, 79, 1) 4
 .playlist-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(290px, 2fr));
-    grid-auto-rows: 280px;
+    grid-auto-rows: 270px;
     grid-gap:5dvh 2dvh;
-
     justify-content: center;  
-    padding: 5dvh 5vw;         
+    padding: 1.5dvh 5vw;       
     box-sizing: border-box;
+    overflow: scroll;
 }
 
 .playlist {
@@ -119,7 +135,7 @@ background: linear-gradient(90deg, rgba(11, 44, 77, 1) 0%, rgba(31, 44, 79, 1) 4
     align-content: center;
     align-items: left;
 
-    background-color: #666b6d61;
+    background-color: #666b6d4c;
     border: solid rgb(57, 62, 68);
     border-radius: 8px;
 
@@ -132,6 +148,7 @@ background: linear-gradient(90deg, rgba(11, 44, 77, 1) 0%, rgba(31, 44, 79, 1) 4
     transform: scale(1.05);
     transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
     box-shadow: 5px 5px 10px rgba(0, 221, 255, 0.35);
+    background-color: #9bbbc761;
 
 }
 
@@ -179,6 +196,7 @@ background: linear-gradient(90deg, rgba(11, 44, 77, 1) 0%, rgba(31, 44, 79, 1) 4
 .heart-icon {
      color:rgb(44, 46, 82);
 }
+
 .liked {
     color:rgb(2, 113, 193);
 }
@@ -243,7 +261,7 @@ background: linear-gradient(90deg, rgba(11, 44, 77, 1) 0%, rgba(31, 44, 79, 1) 4
     align-items:center;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     width: 50%;
     margin-right: 2%;
 }
@@ -263,9 +281,9 @@ background: linear-gradient(90deg, rgba(11, 44, 77, 1) 0%, rgba(31, 44, 79, 1) 4
 }
 
 #shuffleBtn {
-    margin-top: 3%;
+    margin-top: 4%;
     background-color: lightblue;
-    width: 40%;
+
     box-sizing: border-box;
     max-width: fit-content;
     font-size: 2dvh;
@@ -281,7 +299,8 @@ background: linear-gradient(90deg, rgba(11, 44, 77, 1) 0%, rgba(31, 44, 79, 1) 4
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-auto-rows: 60px;
     box-shadow: 10px 10px 20px rgba(70, 100, 126, 0.7);
-    flex-wrap: nowrap;
+    background-color: #5883a87d;
+    flex-wrap: wrap;
     overflow:scroll;
     
 }
@@ -289,38 +308,54 @@ background: linear-gradient(90deg, rgba(11, 44, 77, 1) 0%, rgba(31, 44, 79, 1) 4
 .songs {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    overflow:visible;
     border-bottom: 2px solid rgb(82, 119, 151) ;
 }
+
+.songs:hover{
+    background-color: #78b7ee7d;
+}
+
+.chosen {
+  transform: scale(1.05);
+  background-color:rgb(118, 149, 160) ;
+}
+
 .songs .songTime{
     align-content: center;
     text-align: right;
-    width: 20%;
-    padding-right: 1.8%;
+    width: 9%;
+    padding-right: 1%;
+    
 }
 .songImg {
     display: block; 
-    object-fit: cover;
+    object-fit: contain;
+    background: transparent;
     aspect-ratio: 1 / 1;
-
-    box-sizing:border-box;
+    box-sizing:content-box;
     
-    margin-right: 2%;
-    width: 20%;
+    width: 13%;
     height: auto;
 }
 .songDetails {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
-    
-    overflow: hidden;
+    margin-left:5%;
+    overflow: visible;
     width: 70%;
     
 }
 .songTXT {
+    font-family: 'Manrope', sans-serif;
     text-align: left;
+    font-weight: 9000;
+}
+#songArtist{
+    color:#1c395e;
 }
 
 .close {
@@ -337,7 +372,7 @@ background: linear-gradient(90deg, rgba(11, 44, 77, 1) 0%, rgba(31, 44, 79, 1) 4
    cursor: pointer;
 }
 
-/* Only animate the popup box inside the modal */
+/* ANIMATION */
 @keyframes modalFadeIn {
   from {
     opacity: 0;
@@ -407,23 +442,13 @@ background: linear-gradient(90deg, rgba(11, 44, 77, 1) 0%, rgba(31, 44, 79, 1) 4
 }
 
 .songTXT{
-    color:rgb(0, 34, 68);
+    color:#002244;
 }
 .songTime {
     color:rgb(0, 34, 68);
 }
 
-.songImg {
-    display: block; 
-    object-fit: cover;
-    aspect-ratio: 1 / 1;
 
-    box-sizing:border-box;
-    
-
-    width: 15%;
-    height: auto;
-}
 
 #FeaturedshuffleBtn{
     margin-top: 1%;
@@ -434,4 +459,8 @@ background: linear-gradient(90deg, rgba(11, 44, 77, 1) 0%, rgba(31, 44, 79, 1) 4
 #FeaturedshuffleBtn:active {
   transform: scale(0.95);
   background-color:rgb(118, 149, 160) ;
+}
+#FeaturedshuffleBtn:hover {
+  transform: scale(0.95);
+  background-color:rgb(116, 200, 231) ;
 }

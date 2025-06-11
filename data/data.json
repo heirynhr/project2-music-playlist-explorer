@@ -1,0 +1,117 @@
+{
+  "playlists": [
+    {
+      "playlistID": 1,
+      "playlist_name": "Locked In",
+      "playlist_author": "Heiryn",
+      "playlist_art": "./assets/img/studyPic.jpg",
+      "likes": 128,
+      "songs": [
+        { "songID": 101, "title": "Stick Season", "artist": "Noah Kahan", "duration": "3:02", "link": "https://open.spotify.com/embed/track/0mflMxspEfB0VbI1kyLiAv?utm_source=generator&theme=0" },
+        { "songID": 102, "title": "Motion Sickness", "artist": "Phoebe Bridgers", "duration": "3:49", "link": "https://open.spotify.com/embed/track/25Syi9wnfn6ZGAmiOBypPq?utm_source=generator&theme=0" },
+        { "songID": 103, "title": "Exile", "artist": "Taylor Swift ft. Bon Iver", "duration": "4:45", "link": "https://open.spotify.com/embed/track/4pvb0WLRcMtbPGmtejJJ6y?utm_source=generator&theme=0" },
+        { "songID": 104, "title": "Apocalypse", "artist": "Cigarettes After Sex", "duration": "4:50", "link": "https://open.spotify.com/embed/track/3AVrVz5rK8Hrqo9YGiVGN5?utm_source=generator&theme=0" },
+        { "songID": 105, "title": "Fourth of July", "artist": "Sufjan Stevens", "duration": "4:39", "link": "https://open.spotify.com/embed/track/5Qnrgqy1pAm9GyNQOgyVFz?utm_source=generator&theme=0" }
+      ]
+    },
+    {
+      "playlistID": 2,
+      "playlist_name": "On the Move",
+      "playlist_author": "Ilani",
+      "playlist_art": "./assets/img/driving.jpg",
+      "likes": 204,
+      "songs": [
+        { "songID": 201, "title": "drivers license", "artist": "Olivia Rodrigo", "duration": "4:02", "link": "https://open.spotify.com/embed/track/5wANPM4fQCJwkGd4rN57mH?utm_source=generator" },
+        { "songID": 202, "title": "Ivy", "artist": "Taylor Swift", "duration": "4:20", "link": ".https://open.spotify.com/embed/track/19CSr8rwW05VJL2F91KFNK?utm_source=generator&theme=0" },
+        { "songID": 203, "title": "Dial Drunk", "artist": "Noah Kahan ft. Post Malone", "duration": "3:12", "link": "https://open.spotify.com/embed/track/22VHOlVYBqytsrAqV8yXBK?utm_source=generator&theme=0" },
+        { "songID": 204, "title": "Evergreen", "artist": "Omar Apollo", "duration": "3:39", "link": "https://open.spotify.com/embed/track/2TktkzfozZifbQhXjT6I33?utm_source=generator&theme=0" },
+        { "songID": 205, "title": "Night Changes", "artist": "One Direction", "duration": "3:47", "link": "https://open.spotify.com/embed/track/5O2P9iiztwhomNh8xkR9lJ?utm_source=generator" }
+      ]
+    },
+    {
+      "playlistID": 3,
+      "playlist_name": "Empanadas y Arepas",
+      "playlist_author": "Sofia",
+      "playlist_art": "./assets/img/photograph.jpg",
+      "likes": 320,
+      "songs": [
+        { "songID": 301, "title": "Me Rehúso", "artist": "Danny Ocean", "duration": "3:25", "link": "https://open.spotify.com/embed/track/6De0lHrwBfPfrhorm9q1Xl?utm_source=generator" },
+        { "songID": 302, "title": "Tití Me Preguntó", "artist": "Bad Bunny", "duration": "4:04", "link": "https://open.spotify.com/embed/track/1IHWl5LamUGEuP4ozKQSXZ?utm_source=generator&theme=0" },
+        { "songID": 303, "title": "Ojitos Lindos", "artist": "Bad Bunny ft. Bomba Estéreo", "duration": "4:18", "link": "https://open.spotify.com/embed/track/3k3NWokhRRkEPhCzPmV8TW?utm_source=generator&theme=0" },
+        { "songID": 304, "title": "Felices los 4", "artist": "Maluma", "duration": "3:49", "link": "https://open.spotify.com/embed/track/1RouRzlg8OKFeqc6LvdxmB?utm_source=generator" },
+        { "songID": 305, "title": "Échame La Culpa", "artist": "Luis Fonsi & Demi Lovato", "duration": "2:53", "link": "https://open.spotify.com/embed/track/0mlAOSILGRys2IbvyOT5VJ?utm_source=generator" }
+      ]
+    },
+    {
+      "playlistID": 4,
+      "playlist_name": "Playa y Sol",
+      "playlist_author": "Serene",
+      "playlist_art": "./assets/img/beach.jpg",
+      "likes": 96,
+      "songs": [
+        { "songID": 401, "title": "Watermelon Sugar", "artist": "Harry Styles", "duration": "2:54", "link": "https://open.spotify.com/embed/track/6UelLqGlWMcVH1E5c4H7lY?utm_source=generator" },
+        { "songID": 402, "title": "Hawai", "artist": "Maluma", "duration": "3:20", "link": "https://open.spotify.com/embed/track/1yoMvmasuxZfqHEipJhRbp?utm_source=generator" },
+        { "songID": 403, "title": "Salio el Sol", "artist": "Don Omar", "duration": "5!5", "link": "https://open.spotify.com/embed/track/48NXpYRuvv9izul4oXhqS9?utm_source=generator" },
+        { "songID": 404, "title": "Sunflower", "artist": "Post Malone & Swae Lee", "duration": "2:38", "link": "https://open.spotify.com/embed/track/3KkXRkHbMCARz0aVfEt68P?utm_source=generator&theme=0" },
+        { "songID": 405, "title": "Blinding Lights", "artist": "The Weeknd", "duration": "3:22", "link": "https://open.spotify.com/embed/track/0VjIjW4GlUZAMYd2vXMi3b?utm_source=generator&theme=0" }
+      ]
+    },
+    {
+      "playlistID": 5,
+      "playlist_name": "Heartbreak Hits",
+      "playlist_author": "Luna",
+      "playlist_art": "./assets/img/sad.jpg",
+      "likes": 174,
+      "songs": [
+        { "songID": 501, "title": "Traitor", "artist": "Olivia Rodrigo", "duration": "3:49", "link": "https://open.spotify.com/embed/track/5CZ40GBx1sQ9agT82CLQCT?utm_source=generator" },
+        { "songID": 502, "title": "All Too Well (10 Minute Version)", "artist": "Taylor Swift", "duration": "10:13", "link": "https://open.spotify.com/embed/track/5enxwA8aAbwZbf5qCHORXi?utm_source=generator&theme=0" },
+        { "songID": 503, "title": "Homesick", "artist": "Noah Kahan", "duration": "3:12", "link": "https://open.spotify.com/embed/track/0jkzxxDG8z3Y5OmfNl1VM0?utm_source=generator" },
+        { "songID": 504, "title": "Jealous", "artist": "Labrinth", "duration": "4:15", "link": "https://open.spotify.com/embed/track/4G92yYrUs0cvY7G41YRI0z?utm_source=generator" },
+        { "songID": 505, "title": "When I Was Your Man", "artist": "Bruno Mars", "duration": "3:34", "link": "https://open.spotify.com/embed/track/0nJW01T7XtvILxQgC5J7Wh?utm_source=generator&theme=0" }
+      ]
+    },
+    {
+      "playlistID": 6,
+      "playlist_name": "Friday Nights",
+      "playlist_author": "Ana",
+      "playlist_art": "./assets/img/party.jpg",
+      "likes": 399,
+      "songs": [
+        { "songID": 601, "title": "Where She Goes", "artist": "Bad Bunny", "duration": "3:50", "link": "https://open.spotify.com/embed/track/7ro0hRteUMfnOioTFI5TG1?utm_source=generator" },
+        { "songID": 602, "title": "Dance The Night", "artist": "Dua Lipa", "duration": "2:56", "link": "https://open.spotify.com/embed/track/11C4y2Yz1XbHmaQwO06s9f?utm_source=generator&theme=0" },
+        { "songID": 603, "title": "Despacito", "artist": "Luis Fonsi ft. Daddy Yankee", "duration": "3:47", "link": "https://open.spotify.com/embed/track/6habFhsOp2NvshLv26DqMb?utm_source=generator" },
+        { "songID": 604, "title": "Uptown Funk", "artist": "Mark Ronson ft. Bruno Mars", "duration": "4:30", "link": "https://open.spotify.com/embed/track/32OlwWuMpZ6b0aN2RZOeMS?utm_source=generator" },
+        { "songID": 605, "title": "El Merengue", "artist": "Manuel Turizo", "duration": "3:09", "link": "https://open.spotify.com/embed/track/5KbBVSj6AJZ5662fO8EYFh?utm_source=generator&theme=0" }
+      ]
+    },
+    {
+      "playlistID": 7,
+      "playlist_name": "so Indie Folk",
+      "playlist_author": "Lily",
+      "playlist_art": "./assets/img/cameraField.jpg",
+      "likes": 111,
+      "songs": [
+        { "songID": 701, "title": "Northern Attitude", "artist": "Noah Kaha ft. Hozier", "duration": "4:27", "link": "https://open.spotify.com/embed/track/4oEf84vBYVftf6KmZexhVo?utm_source=generator" },
+        { "songID": 702, "title": "Cardigan", "artist": "Taylor Swift", "duration": "4:00", "link": "https://open.spotify.com/embed/track/4R2kfaDFhslZEMJqAFNpdd?utm_source=generator" },
+        { "songID": 703, "title": "Ophelia", "artist": "The Lumineers", "duration": "2:40", "link": "https://open.spotify.com/embed/track/14AyWf6y7KlWWLfAjdKMKI?utm_source=generator" },
+        { "songID": 704, "title": "Holocene", "artist": "Bon Iver", "duration": "5:36", "link": "https://open.spotify.com/embed/track/35KiiILklye1JRRctaLUb4?utm_source=generator" },
+        { "songID": 705, "title": "Lovers Rock", "artist": "TV Girl", "duration": "3:33", "link": ".https://open.spotify.com/embed/track/6dBUzqjtbnIa1TwYbyw5CM?utm_source=generator&theme=0" }
+      ]
+    },
+    {
+      "playlistID": 8,
+      "playlist_name": "Lorde oh Lorde",
+      "playlist_author": "Isa",
+      "playlist_art": "./assets/img/headphones.jpg",
+      "likes": 245,
+      "songs": [
+        { "songID": 801, "title": "Ribs", "artist": "Lorde", "duration": "4:18", "link": "https://open.spotify.com/embed/track/4kX6zEfpHgNe0Lz3k1EB0Q?utm_source=generator" },
+        { "songID": 802, "title": "Liability", "artist": "Lorde", "duration": "2:51", "link": "https://open.spotify.com/embed/track/6Kkt27YmFyIFrcX3QXFi2o?utm_source=generator" },
+        { "songID": 803, "title": "Solar Power", "artist": "Lorde", "duration": "3:12", "link": "https://open.spotify.com/embed/track/7s2kWabRM60W9I61HpKg8C?utm_source=generator" },
+        { "songID": 804, "title": "Hard Feelings/Loveless", "artist": "Lorde", "duration": "6:07", "link": "https://open.spotify.com/embed/track/1Dp7JGFNjvg8Nk0CtMCcnr?utm_source=generator" },
+        { "songID": 805, "title": "Buzzcut Season", "artist": "Lorde", "duration": "4:06", "link": "https://open.spotify.com/embed/track/51QEyJI5M7uyd8DOh9tqQY?utm_source=generator" }
+      ]
+    }
+
+  ]
+}
