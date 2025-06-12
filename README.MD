@@ -5,7 +5,7 @@ Submitted by: **Heiryn Hernandez Rojas**
 
 Estimated time spent: **16** hours spent in total
 
-Deployed Application (**required**): [Music Playlist Explorer Deployed Site](music-playlist-explorer-sable.vercel.app)
+Deployed Application (**required**): [Music Playlist Explorer Deployed Site](https://music-playlist-explorer-sable.vercel.app/)
 
 ### Application Features
 
